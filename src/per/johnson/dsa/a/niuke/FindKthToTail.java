@@ -1,5 +1,7 @@
 package per.johnson.dsa.a.niuke;
 
+import per.johnson.dsa.a.niuke.ds.ListNode;
+
 /**
  * Created by Johnson on 2018/7/5.
  */
@@ -10,7 +12,7 @@ public class FindKthToTail {
      * @param k 倒数第 K 个
      * @return {@link ListNode}
      */
-    public ListNode FindKthToTail_0(ListNode head,int k) {
+    public ListNode FindKthToTail_0(ListNode head, int k) {
         ListNode[] temp = new ListNode[64];
         int size = 0;
         while(head != null){

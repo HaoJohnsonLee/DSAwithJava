@@ -5,24 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc9e486-def8-4c71-b5ec-3ec1921c6a14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Clone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/IsPopOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/PrintFromTopToBottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/VerifySequenceOfBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/RandomListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/bottle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/bottle/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/duplicateRemoval/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/duplicateRemoval/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/HasSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/HasSubtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Mirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/StackWithMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/StackWithMin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/bottle/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/duplicateRemoval/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/FindKthToTail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/FindKthToTail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/HasSubtree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/HasSubtree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/Merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/Mirror.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/Mirror.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/ReverseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindKthToTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindKthToTail.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +31,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/TwoSum.java">
+      <file leaf-file-name="LongestPalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="214">
+              <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+              <folding>
+                <element signature="method#longestPalindrome#0;class#LongestPalindrome#0" />
+                <element signature="method#insert#0;class#LongestPalindrome#0" />
+                <element signature="e#2198#2199#0" expanded="true" />
+                <element signature="e#2282#2283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="3031" column="47" lean-forward="true" selection-start-line="3031" selection-start-column="47" selection-end-line="3031" selection-end-column="47" />
+              <folding>
+                <element signature="e#119456#119457#0" expanded="true" />
+                <element signature="e#119510#119511#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedianOfTwoSortedArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/MedianOfTwoSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -96,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/JumpFloor.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Power.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ReOrderArray.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindKthToTail.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/PrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/StackWithMin.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/IsPopOrder.java" />
@@ -116,6 +140,11 @@
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Clone.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindKthToTail.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/MedianOfTwoSorteArrays.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/MedianOfTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LongestPalindrome.java" />
       </list>
     </option>
   </component>
@@ -129,7 +158,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="-29" />
+    <option name="y" value="430" />
     <option name="width" value="1935" />
     <option name="height" value="1040" />
   </component>
@@ -252,45 +282,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackWithMin">
+  <component name="RunManager" selected="Application.LongestPalindrome">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="FindKthToTail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.niuke.FindKthToTail" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.leetcode.LongestPalindrome" />
       <module name="DSAwithJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.johnson.dsa.a.niuke.*" />
+          <option name="PATTERN" value="per.johnson.dsa.a.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MedianOfTwoSorteArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.leetcode.MedianOfTwoSorteArrays" />
+      <module name="DSAwithJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.johnson.dsa.a.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.leetcode.MedianOfTwoSortedArrays" />
+      <module name="DSAwithJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.johnson.dsa.a.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.niuke.Merge" />
-      <module name="DSAwithJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.johnson.dsa.a.niuke.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ReOrderArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.niuke.ReOrderArray" />
-      <module name="DSAwithJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.johnson.dsa.a.niuke.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.niuke.ReverseList" />
       <module name="DSAwithJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -353,19 +383,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ReOrderArray" />
-      <item itemvalue="Application.FindKthToTail" />
-      <item itemvalue="Application.ReverseList" />
       <item itemvalue="Application.Merge" />
       <item itemvalue="Application.StackWithMin" />
+      <item itemvalue="Application.MedianOfTwoSorteArrays" />
+      <item itemvalue="Application.MedianOfTwoSortedArrays" />
+      <item itemvalue="Application.LongestPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.MedianOfTwoSortedArrays" />
+        <item itemvalue="Application.MedianOfTwoSorteArrays" />
         <item itemvalue="Application.StackWithMin" />
         <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.FindKthToTail" />
-        <item itemvalue="Application.ReOrderArray" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +422,7 @@
       <workItem from="1530802385404" duration="62000" />
       <workItem from="1530868501712" duration="7720000" />
       <workItem from="1530974046479" duration="627000" />
-      <workItem from="1531034669282" duration="256000" />
+      <workItem from="1531034669282" duration="12641000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1530802421755</created>
@@ -405,7 +435,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72505000" />
+    <option name="totallyTimeSpent" value="84890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -414,28 +444,28 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3281027" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32524964" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32524964" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952926" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" x="580" y="68" width="372" height="695" id="Project" order="0" visible="true" weight="0.2969169" />
+      <window_info content_ui="combo" x="580" y="68" width="372" height="695" id="Project" order="0" visible="true" weight="0.2969169" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39800286" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -469,7 +499,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindKthToTail.java</url>
-          <line>44</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
@@ -491,8 +521,26 @@
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/MedianOfTwoSortedArrays.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/MedianOfTwoSortedArrays.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Java/src.zip!/java/lang/String.java</url>
+          <line>3031</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="74" />
+      <option name="time" value="88" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -504,27 +552,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/nqueen/EightQueen5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="159" column="48" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/src.zip!/java/lang/ref/WeakReference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -648,13 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindKthToTail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -869,8 +889,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="494">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindKthToTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/MedianOfTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="3031" column="47" lean-forward="true" selection-start-line="3031" selection-start-column="47" selection-end-line="3031" selection-end-column="47" />
+          <folding>
+            <element signature="e#119456#119457#0" expanded="true" />
+            <element signature="e#119510#119511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+          <folding>
+            <element signature="method#longestPalindrome#0;class#LongestPalindrome#0" />
+            <element signature="method#insert#0;class#LongestPalindrome#0" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2282#2283#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
