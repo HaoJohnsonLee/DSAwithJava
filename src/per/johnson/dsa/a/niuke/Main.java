@@ -1,25 +1,14 @@
 package per.johnson.dsa.a.niuke;
 
+import per.johnson.dsa.a.niuke.ds.ListNode;
+import per.johnson.dsa.a.niuke.ds.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Stack;
 
 /**
  * Created by Johnson on 2018/7/5.
  */
-class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-}
-class TreeNode{
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
 public class Main {
 
 
@@ -118,7 +107,7 @@ public class Main {
      * @param in 中序
      * @return root
      */
-    private static TreeNode reConstructBinaryTree(int [] pre,int [] in) {
+    private static TreeNode reConstructBinaryTree(int [] pre, int [] in) {
         if(in.length == 0) return null;
         return reConstructBinaryTree(pre,0,pre.length-1,in,0,in.length-1);
     }

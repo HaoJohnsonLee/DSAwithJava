@@ -1,5 +1,7 @@
 package per.johnson.dsa.a.niuke;
 
+import per.johnson.dsa.a.niuke.ds.ListNode;
+
 /**
  * Created by Johnson on 2018/7/5.
  */

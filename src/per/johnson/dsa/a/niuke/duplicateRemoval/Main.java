@@ -1,6 +1,5 @@
-package per.johnson.dsa.a.duplicateRemoval;
+package per.johnson.dsa.a.niuke.duplicateRemoval;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
