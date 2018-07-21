@@ -20,7 +20,7 @@ public class LongestPalindrome {
         mp[0] = 0;
         for (int i = 1; i < ma.length; i++) {
             int mirror = 2 * id - i;
-            if (i <= mx) {  // 当前位置处于回文范围内
+            if (i <= mx && mirror >= 0) {  // 当前位置处于回文范围内,且mirror合法
                 mp[i] = Math.min(mp[mirror], mx - i);
             } else { //在回文区域外
                 mp[i] = 0;
@@ -34,7 +34,7 @@ public class LongestPalindrome {
             }
         }
         int length = mp[id];
-        return String.valueOf(origin, (id - 1 - length) / 2, length);
+        return String.valueOf(origin, (id - length) / 2, length);
     }
 
     private char[] insert(char[] origin) {
@@ -49,24 +49,25 @@ public class LongestPalindrome {
 
     public String longestPalindrome0(String s) {
         StringBuilder sb = new StringBuilder();
-        int length = s.length();
+        char[] newStringArray = insert(s.toCharArray());
+        int length = newStringArray.length;
         int maxLength = 0;
         for (int i = 0; i < length; i++) {
             int curLength = 1;
-            while (i - curLength > -1 && i + curLength < length && s.charAt(i - curLength) == s.charAt(i + curLength)) {
+            while (i - curLength > -1 && i + curLength < length && newStringArray[i - curLength] == newStringArray[i + curLength]) {
                 curLength++;
             }
             if (curLength > maxLength) {
                 maxLength = curLength;
                 sb.delete(0, sb.length());
-                sb.append(s, i - curLength + 1, i + curLength);
+                sb.append(s, (i - curLength + 1) / 2, (i + curLength) / 2);
             }
         }
         return sb.toString();
     }
 
     public static void main(String[] args) {
-        System.out.println(new LongestPalindrome().longestPalindrome0("babad"));
+        System.out.println(new LongestPalindrome().longestPalindrome("abbd"));
     }
 
 }
