@@ -1,6 +1,4 @@
-package per.johnson.dsa.a;
-
-import java.util.Arrays;
+package per.johnson.dsa.a.basic;
 
 /**
  * Created by Johnson on 2018/7/23.

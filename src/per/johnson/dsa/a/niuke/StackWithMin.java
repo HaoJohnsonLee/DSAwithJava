@@ -1,4 +1,4 @@
-package per.johnson.dsa.a;
+package per.johnson.dsa.a.niuke;
 
 import java.util.Stack;
 
@@ -9,20 +9,24 @@ import java.util.Stack;
 public class StackWithMin {
     Stack<Integer> stack = new Stack<>();
     Stack<Integer> minStack = new Stack<>();
-    int min = Integer.MAX_VALUE;
     public void push(int node) {
-        stack.push(node);
-        if(node < min){
-            min = node;
+        if(stack.empty()){
             minStack.push(node);
+        }else{
+            if(node < minStack.peek()){
+                minStack.push(node);
+            }else{
+                minStack.push(minStack.peek());
+            }
         }
+        stack.push(node);
     }
 
     public void pop() {
         int s = stack.pop();
         if(s == minStack.peek()) {
             minStack.pop();
-            min = minStack.peek();
+            minStack.pop();
         }
     }
 
@@ -31,7 +35,7 @@ public class StackWithMin {
     }
 
     public int min() {
-        return min;
+        return minStack.peek();
     }
 
     public static void main(String[] args) {

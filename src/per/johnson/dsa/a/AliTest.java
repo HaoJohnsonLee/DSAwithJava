@@ -68,7 +68,6 @@ public class AliTest {
         while(num-- > 0){
             locations[index++] = scanner.nextLine();
         }
-
         System.out.println(calculate(locations));
     }
 }

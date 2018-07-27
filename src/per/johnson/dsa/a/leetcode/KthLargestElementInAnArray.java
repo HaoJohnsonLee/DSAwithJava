@@ -1,5 +1,9 @@
 package per.johnson.dsa.a.leetcode;
 
+import per.johnson.dsa.a.basic.MergeSort;
+import per.johnson.dsa.a.niuke.Merge;
+import per.johnson.dsa.util.ArrayUtil;
+
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -8,40 +12,25 @@ import java.util.PriorityQueue;
  */
 public class KthLargestElementInAnArray {
     public int findKthLargest(int[] nums, int k) {
-        int hi = nums.length - 1;
-        int index = partition(nums, 0 , hi);
-        int lo = 0;
-        while(index != k){
-            if(index > k) {
-                hi = index -1;
-                index = partition(nums, lo, hi);
-            }
-            if(index < k) {
-                lo = index;
-                index = partition(nums, lo, hi);
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        for(int i = 0; i<= k; i++){
+            queue.offer(nums[i]);
+        }
+        for(int i = k + 1; i<nums.length; i++){
+            int num = nums[i];
+            if(num > queue.peek()){
+                queue.poll();
+                queue.offer(num);
             }
         }
-        return nums[index];
+        return queue.peek();
     }
-    private int partition(int[] nums, int lo, int hi){
-        int miValue = nums[lo];
-        while (lo < hi){
-            while(nums[lo] < miValue)
-                lo++;
-            while (nums[hi] > miValue)
-                hi --;
-            swap(nums, lo, hi);
-        }
-        return lo;
-    }
-    private void swap(int[] nums, int pre, int last){
-        int temp = nums[last];
-        nums[last] = nums[pre];
-        nums[pre] = temp;
-    }
+
 
     public static void main(String[] args) {
         int[] nums = {9, 3, 1, 10, 5, 7, 6, 2, 8, 0};
         System.out.println(new KthLargestElementInAnArray().findKthLargest(nums,5));
+        MergeSort.sort(nums);
+        System.out.println(ArrayUtil.array2String(nums));
     }
 }

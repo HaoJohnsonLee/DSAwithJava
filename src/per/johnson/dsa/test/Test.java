@@ -1,6 +1,9 @@
 package per.johnson.dsa.test;
 
 
+import per.johnson.dsa.util.IntegerUtils;
+
+import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Test {
@@ -9,7 +12,6 @@ public class Test {
         System.out.println(++count);
     }
     public static void main(String args[]) {
-        new Test().count();
-        new Test().count();
+        System.out.println(IntegerUtils.findMinPowOfTow(28));
     }
 }

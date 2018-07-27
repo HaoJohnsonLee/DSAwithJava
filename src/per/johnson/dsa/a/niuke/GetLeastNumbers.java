@@ -1,8 +1,6 @@
 package per.johnson.dsa.a.niuke;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 
 /**
  * Created by Johnson on 2018/7/19.
@@ -10,44 +8,25 @@ import java.util.Collections;
 public class GetLeastNumbers {
     public static ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {
         ArrayList<Integer> s = new ArrayList<>(k);
-        if(input == null || input.length < k) return s;
-        generate(input,k,0,input.length - 1);
-        for(int i =0; i<k; i++)
-            s.add(input[i]);
-        return s;
-    }
-    private static void generate(int[] input, int k, int lo, int hi){
-        int cur = input[lo];
-        while(lo < hi){
-            while(input[lo] <= cur)
-                lo++;
-            while(input[hi] >= cur)
-                hi--;
-            if(lo < hi)
-                swap(input, hi , lo);
+        if(input.length < k || k<=0) return s;
+        PriorityQueue<Integer> queue = new PriorityQueue<>((o1, o2) -> o2 - o1);
+        for(int i = 0; i < k;i++){
+            queue.add(input[i]);
         }
-        if(lo == k) return;
-        else if(lo > k) generate(input,k,0,lo);
-        else generate(input,k,lo,hi);
-    }
-
-    private static void swap(int[] input, int s, int e){
-        int temp = input[s];
-        input[s] = input[e];
-        input[e] = temp;
-    }
-    private static ArrayList<Integer> GetLeastNumbers_Solution0(int[] input, int k){
-        ArrayList<Integer> s = new ArrayList<>(k);
-        if(input == null || input.length < k) return s;
-        Arrays.sort(input);
-        for(int i=0; i< k; i++){
-            s.add(input[i]);
+        for(int i = k ; i<input.length;i++){
+            if(input[i] < queue.peek()){
+                queue.poll();
+                queue.add(input[i]);
+            }
+        }
+        while(!queue.isEmpty()){
+            s.add(queue.poll());
         }
         return s;
     }
     public static void main(String[] args) {
         int[] input = {4,5,1,6,2,7,3,8,15,0};
-        ArrayList<Integer> s =GetLeastNumbers_Solution0(input,4);
+        ArrayList<Integer> s =GetLeastNumbers_Solution(input,100);
         Collections.sort(s);
         for (int num : s){
             System.out.println(num);

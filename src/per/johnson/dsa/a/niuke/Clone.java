@@ -12,7 +12,7 @@ public class Clone {
      * @param pHead 头结点
      * @return
      */
-    public RandomListNode Clone(RandomListNode pHead) {
+    public static RandomListNode Clone(RandomListNode pHead) {
         RandomListNode temp = pHead;
         //复制链表
         while(temp!=null){
@@ -29,13 +29,34 @@ public class Clone {
         }
         //切分
         temp = pHead.next;
+        RandomListNode oldHead = pHead;
         RandomListNode newHead = temp;
-        while(pHead!=null){
-            temp.next = pHead.next.next.next;
-            pHead = temp.next.next;
+        while(temp.next!=null){
+            pHead.next = temp.next;
+            pHead = pHead.next;
+            temp.next = pHead.next;
             temp = temp.next;
         }
+        pHead.next = null;
         return newHead;
+    }
+
+    public static void main(String[] args) {
+        RandomListNode head = new RandomListNode(5);
+        RandomListNode t1 = new RandomListNode(4);
+        RandomListNode t2 = new RandomListNode(3);
+        RandomListNode t3 = new RandomListNode(2);
+        RandomListNode t4 = new RandomListNode(1);
+        head.next = t1;
+        t1.next = t2;
+        t2.next = t3;
+        t3.next = t4;
+        head.random = t3;
+        t1.random = t4;
+        t2.random = t3;
+        t3.random = t1;
+        t4.random = head;
+        RandomListNode result = Clone(head);
     }
 
 }
