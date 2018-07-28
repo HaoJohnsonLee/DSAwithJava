@@ -1,4 +1,4 @@
-package per.johnson.dsa.a;
+package per.johnson.dsa.a.niuke;
 
 /**
  * Created by Johnson on 2018/7/28.

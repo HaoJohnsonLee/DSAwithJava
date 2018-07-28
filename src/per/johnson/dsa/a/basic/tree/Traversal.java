@@ -94,12 +94,23 @@ public class Traversal {
 
     /**
      * 后续遍历非递归版本
-     * @param root
-     * @param result
+     * @param root root
+     * @param result 结果集
      */
     public static void postOrder(TreeNode root, ArrayList<Integer> result){
         if(root == null)return;
-
+        Stack<TreeNode> first = new Stack<>();
+        Stack<TreeNode> last = new Stack<>();
+        first.push(root);
+        while(!first.empty()){
+            TreeNode cur = first.pop();
+            last.push(cur);
+            if(cur.left != null)first.push(cur.left);
+            if(cur.right != null)first.push(cur.right);
+        }
+        while(!last.empty()){
+            result.add(last.pop().val);
+        }
     }
 
     /**
@@ -121,8 +132,9 @@ public class Traversal {
 
     public static void main(String[] args) {
         TreeNode root = ArrayUtil.buildBinTree();
-        ArrayList<Integer> result = new ArrayList<>();
-        floorOrder(root, result);
-        System.out.println(ArrayUtil.array2String(result));
+        ArrayUtil.printTree(root);
+        /*ArrayList<Integer> result = new ArrayList<>();
+        postOrder(root, result);
+        System.out.println(ArrayUtil.array2String(result));*/
     }
 }

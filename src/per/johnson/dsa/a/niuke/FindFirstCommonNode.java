@@ -1,4 +1,4 @@
-package per.johnson.dsa.a;
+package per.johnson.dsa.a.niuke;
 
 import per.johnson.dsa.a.niuke.ds.ListNode;
 

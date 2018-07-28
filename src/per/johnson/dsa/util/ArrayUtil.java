@@ -1,6 +1,7 @@
 package per.johnson.dsa.util;
 
 import per.johnson.dsa.a.niuke.ds.ListNode;
+import per.johnson.dsa.a.niuke.ds.TreeLinkNode;
 import per.johnson.dsa.a.niuke.ds.TreeNode;
 
 import java.util.ArrayList;
@@ -11,6 +12,7 @@ import java.util.Random;
  * Created by Johnson on 2018/7/27.
  */
 public class ArrayUtil {
+
     public static int[] randomArray(int minSize, int maxSize){
         Random random = new Random();
         int capacity = (random.nextInt(1) * (maxSize - minSize)) + maxSize;
@@ -21,6 +23,26 @@ public class ArrayUtil {
         return array;
     }
 
+    public static int[][] generateRandomMatrix(int rowSize, int colSize) {
+        if (rowSize < 0 || colSize < 0) {
+            return null;
+        }
+        int[][] result = new int[rowSize][colSize];
+        for (int i = 0; i != result.length; i++) {
+            for (int j = 0; j != result[0].length; j++) {
+                result[i][j] = (int) (Math.random() * 10);
+            }
+        }
+        return result;
+    }
+
+    public static String array2String(int[][] array){
+        StringBuilder sb = new StringBuilder();
+        for(int[] a : array){
+            sb.append(array2String(a)).append(System.lineSeparator());
+        }
+        return sb.toString();
+    }
     public static void swap(int[] array, int s0,int s1){
         if(s0 == s1) return;
         array[s0] = array[s1] ^ array[s0];
@@ -113,5 +135,62 @@ public class ArrayUtil {
         t2.left = t6;
         t2.right = t7;
         return root;
+    }
+
+    public static TreeLinkNode buildBinTree(int rootVal){
+        TreeLinkNode root = new TreeLinkNode(rootVal);
+        TreeLinkNode t1 = new TreeLinkNode(8);
+        TreeLinkNode t2 = new TreeLinkNode(1);
+        TreeLinkNode t3 = new TreeLinkNode(16);
+        TreeLinkNode t4 = new TreeLinkNode(2);
+        TreeLinkNode t5 = new TreeLinkNode(6);
+        TreeLinkNode t6 = new TreeLinkNode(3);
+        TreeLinkNode t7 = new TreeLinkNode(10);
+        root.next = null;
+        root.left = t1;
+        root.right = t2;
+        t1.left = t3;
+        t1.right = t5;
+        t3.left = t4;
+        t2.left = t6;
+        t2.right = t7;
+        t1.next = root;
+        t2.next = root;
+        t3.next = t1;
+        t4.next = t3;
+        t5.next = t1;
+        t6.next = t2;
+        t7.next = t2;
+        return root;
+    }
+
+
+    public static void printTree(TreeNode head) {
+        System.out.println("Binary Tree:");
+        printInOrder(head, 0, "H", 17);
+        System.out.println();
+    }
+
+    private static void printInOrder(TreeNode head, int height, String to, int len) {
+        if (head == null) {
+            return;
+        }
+        printInOrder(head.right, height + 1, "v", len);
+        String val = to + head.val + to;
+        int lenM = val.length();
+        int lenL = (len - lenM) / 2;
+        int lenR = len - lenM - lenL;
+        val = getSpace(lenL) + val + getSpace(lenR);
+        System.out.println(getSpace(height * len) + val);
+        printInOrder(head.left, height + 1, "^", len);
+    }
+
+    private static String getSpace(int num) {
+        String space = " ";
+        StringBuffer buf = new StringBuffer("");
+        for (int i = 0; i < num; i++) {
+            buf.append(space);
+        }
+        return buf.toString();
     }
 }
