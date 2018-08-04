@@ -11,7 +11,7 @@ import java.util.Random;
 /**
  * Created by Johnson on 2018/7/27.
  */
-public class ArrayUtil {
+public class AlgorithmUtils {
 
     public static int[] randomArray(int minSize, int maxSize){
         Random random = new Random();
@@ -55,6 +55,7 @@ public class ArrayUtil {
     }
 
     public static String array2String(ArrayList<Integer> integers){
+        if(integers == null || integers.size() < 1) return "[]";
         StringBuilder sb = new StringBuilder("[");
         for(int i=0; i<integers.size() - 1 ; i++)
             sb.append(integers.get(i)).append(",");
@@ -136,6 +137,14 @@ public class ArrayUtil {
         t2.left = t6;
         t2.right = t7;
         return root;
+    }
+
+    public static boolean isTreeEquels(TreeNode r1, TreeNode r2){
+        if(r1 == r2) return true;
+        if(r1.val != r2.val) return false;
+        else{
+            return isTreeEquels(r1.left,r2.left) && isTreeEquels(r1.right,r2.right);
+        }
     }
 
     public static TreeLinkNode buildBinTree(int rootVal){

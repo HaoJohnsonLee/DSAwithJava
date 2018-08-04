@@ -1,6 +1,6 @@
 package per.johnson.dsa.a.basic;
 
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 import java.util.Arrays;
 
@@ -31,12 +31,12 @@ public class BucketSort {
     }
 
     public static void main(String[] args) {
-        int[] a = ArrayUtil.randomArray(30,50);
-        int[] b = ArrayUtil.arrayCopy(a);
-        System.out.println(ArrayUtil.array2String(a));
+        int[] a = AlgorithmUtils.randomArray(30,50);
+        int[] b = AlgorithmUtils.arrayCopy(a);
+        System.out.println(AlgorithmUtils.array2String(a));
         HeapSort.heapSort(b);
         sort(a);
-        System.out.println(ArrayUtil.array2String(a));
-        System.out.println(ArrayUtil.isEquals(a,b));
+        System.out.println(AlgorithmUtils.array2String(a));
+        System.out.println(AlgorithmUtils.isEquals(a,b));
     }
 }

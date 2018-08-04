@@ -1,6 +1,6 @@
 package per.johnson.dsa.a.basic;
 
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 /**
  * Created by Johnson on 2018/7/27.
@@ -10,7 +10,7 @@ public class HeapSort {
         buildHeap(array);
         int heapSize = array.length;
         while(heapSize > 0){
-            ArrayUtil.swap(array,0,--heapSize);
+            AlgorithmUtils.swap(array,0,--heapSize);
             heapify(array,0,heapSize);
         }
     }
@@ -23,7 +23,7 @@ public class HeapSort {
     private static void heapInsert(int[] array, int index){
         int p;
         while(array[index] > array[p = parent(index)]){
-            ArrayUtil.swap(array,index,p);
+            AlgorithmUtils.swap(array,index,p);
             index = p;
         }
     }
@@ -35,7 +35,7 @@ public class HeapSort {
                     left + 1: left;
             largest = array[index] > array[largest] ? index : largest;
             if(largest == index) break;
-            ArrayUtil.swap(array,index,largest);
+            AlgorithmUtils.swap(array,index,largest);
             index = largest;
             left = (index << 1) + 1;
         }
@@ -49,6 +49,6 @@ public class HeapSort {
     public static void main(String[] args) {
         int[] a = {2,1,3,6,0,4};
         heapSort(a);
-        System.out.println(ArrayUtil.array2String(a));
+        System.out.println(AlgorithmUtils.array2String(a));
     }
 }

@@ -1,7 +1,7 @@
 package per.johnson.dsa.a.interview;
 
 import per.johnson.dsa.a.basic.QuickSort;
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 /**
  * Created by Johnson on 2018/7/27.
@@ -47,11 +47,11 @@ public class FindMaxGap {
     }
 
     public static void main(String[] args) {
-        int[] a = ArrayUtil.randomArray(10,20);
-        System.out.println(ArrayUtil.array2String(a));
+        int[] a = AlgorithmUtils.randomArray(10,20);
+        System.out.println(AlgorithmUtils.array2String(a));
         System.out.println(findMaxGap(a));
         QuickSort.quickSort(a);
-        System.out.println(ArrayUtil.array2String(a));
+        System.out.println(AlgorithmUtils.array2String(a));
     }
 }
 class Bucket{

@@ -1,6 +1,4 @@
-package per.johnson.dsa.a.huawei;
-
-import per.johnson.dsa.util.AlgorithmUtils;
+package per.johnson.dsa.a.advanced;
 
 import java.util.*;
 

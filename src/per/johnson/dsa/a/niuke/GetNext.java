@@ -1,7 +1,7 @@
 package per.johnson.dsa.a.niuke;
 
 import per.johnson.dsa.a.niuke.ds.TreeLinkNode;
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 /**
  * Created by Johnson on 2018/7/28.
@@ -36,7 +36,7 @@ public class GetNext {
     }
 
     public static void main(String[] args) {
-        TreeLinkNode root = ArrayUtil.buildBinTree(15);
+        TreeLinkNode root = AlgorithmUtils.buildBinTree(15);
         while(true){
             if(root.left == null) break;
             root = root.left;

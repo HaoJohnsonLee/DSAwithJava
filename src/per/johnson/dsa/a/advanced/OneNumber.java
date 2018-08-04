@@ -1,4 +1,4 @@
-package per.johnson.dsa.a.huawei;
+package per.johnson.dsa.a.advanced;
 
 /**
  * Created by Johnson on 2018/7/31.

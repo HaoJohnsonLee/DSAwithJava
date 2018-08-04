@@ -2,6 +2,8 @@ package per.johnson.dsa.a.leetcode;
 
 /**
  * Created by Johnson on 2018/7/8.
+ *
+ * Manacher's Algorithm
  */
 public class LongestPalindrome {
     /**

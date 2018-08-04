@@ -1,8 +1,6 @@
 package per.johnson.dsa.a.basic;
 
-import per.johnson.dsa.util.ArrayUtil;
-
-import java.util.Arrays;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 /**
  * Created by Johnson on 2018/7/27.
@@ -24,11 +22,11 @@ public class ImprovedQuickSort {
         int R = hi;
         int L = lo - 1;
         while (lo < R) {
-            if (array[lo] > array[hi]) ArrayUtil.swap(array, lo, --R);
-            else if (array[lo] < array[hi]) ArrayUtil.swap(array, lo++, ++L);
+            if (array[lo] > array[hi]) AlgorithmUtils.swap(array, lo, --R);
+            else if (array[lo] < array[hi]) AlgorithmUtils.swap(array, lo++, ++L);
             else lo++;
         }
-        ArrayUtil.swap(array, lo, hi);
+        AlgorithmUtils.swap(array, lo, hi);
         return new int[]{++L, R};
     }
 
@@ -41,11 +39,11 @@ public class ImprovedQuickSort {
     }
 
     public static void main(String[] args) {
-        int[] array = ArrayUtil.randomArray(10,20);
-        int[] array2 = ArrayUtil.arrayCopy(array);
-        System.out.println(ArrayUtil.isEquals(array,array2));
+        int[] array = AlgorithmUtils.randomArray(10,20);
+        int[] array2 = AlgorithmUtils.arrayCopy(array);
+        System.out.println(AlgorithmUtils.isEquals(array,array2));
         quickSort(array);
         QuickSort.quickSort(array2);
-        System.out.println(ArrayUtil.isEquals(array,array2));
+        System.out.println(AlgorithmUtils.isEquals(array,array2));
     }
 }

@@ -1,7 +1,7 @@
 package per.johnson.dsa.a.basic.tree;
 
 import per.johnson.dsa.a.niuke.ds.TreeNode;
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -60,7 +60,7 @@ public class Traversal {
      * @param result 结果集
      */
     public static void preOrder(TreeNode root, ArrayList<Integer> result) {
-        if(root == null)return;
+        if (root == null) return;
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.empty()) {
@@ -79,7 +79,7 @@ public class Traversal {
      * @param result 结果集
      */
     public static void inOrder(TreeNode root, ArrayList<Integer> result) {
-        if(root == null)return;
+        if (root == null) return;
         Stack<TreeNode> stack = new Stack<>();
         while (!stack.empty() || root != null) {
             while (root != null) {
@@ -94,47 +94,161 @@ public class Traversal {
 
     /**
      * 后续遍历非递归版本
-     * @param root root
+     *
+     * @param root   root
      * @param result 结果集
      */
-    public static void postOrder(TreeNode root, ArrayList<Integer> result){
-        if(root == null)return;
+    public static void postOrder(TreeNode root, ArrayList<Integer> result) {
+        if (root == null) return;
         Stack<TreeNode> first = new Stack<>();
         Stack<TreeNode> last = new Stack<>();
         first.push(root);
-        while(!first.empty()){
+        while (!first.empty()) {
             TreeNode cur = first.pop();
             last.push(cur);
-            if(cur.left != null)first.push(cur.left);
-            if(cur.right != null)first.push(cur.right);
+            if (cur.left != null) first.push(cur.left);
+            if (cur.right != null) first.push(cur.right);
         }
-        while(!last.empty()){
+        while (!last.empty()) {
             result.add(last.pop().val);
         }
     }
 
     /**
      * 层次遍历
-     * @param root root
+     *
+     * @param root   root
      * @param result 结果集
      */
-    public static void floorOrder(TreeNode root, ArrayList<Integer> result){
-        if(root == null)return;
+    public static void floorOrder(TreeNode root, ArrayList<Integer> result) {
+        if (root == null) return;
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.add(root);
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             TreeNode cur = queue.poll();
             result.add(cur.val);
-            if(cur.left!=null) queue.add(cur.left);
-            if(cur.right!=null) queue.add(cur.right);
+            if (cur.left != null) queue.add(cur.left);
+            if (cur.right != null) queue.add(cur.right);
+        }
+    }
+
+
+    public static void morrisIn(TreeNode root, ArrayList<Integer> result) {
+        if (root == null) {
+            return;
+        }
+        TreeNode cur = root; // 当前指针
+        TreeNode mostRight;  // 当前指针左子树的最右结点
+        while (cur != null) {
+            mostRight = cur.left;
+            if (mostRight != null) {
+                while (mostRight.right != null && mostRight.right != cur) {
+                    mostRight = mostRight.right;
+                }
+                if (mostRight.right == null) {
+                    mostRight.right = cur;
+                    cur = cur.left;
+                    continue;
+                } else {
+                    mostRight.right = null;
+                }
+            }
+            result.add(cur.val);
+            cur = cur.right;
+        }
+    }
+
+
+    public static void morrisPre(TreeNode root, ArrayList<Integer> result) {
+        if (root == null) return;
+        TreeNode cur = root;
+        TreeNode mostRight;
+        while (cur != null) {
+            mostRight = cur.left;
+            if (mostRight != null) {
+                while (mostRight.right != null && mostRight.right != cur) {
+                    mostRight = mostRight.right;
+                }
+                if (mostRight.right == cur) {
+                    mostRight.right = null;
+                } else {
+                    result.add(cur.val);
+                    mostRight.right = cur;
+                    cur = cur.left;
+                    continue;
+                }
+
+            }else{
+                result.add(cur.val);
+            }
+            cur = cur.right;
+        }
+    }
+
+
+    public static void morrisPost(TreeNode root, ArrayList<Integer> result){
+        if (root == null) {
+            return;
+        }
+        TreeNode cur = root; // 当前指针
+        TreeNode mostRight;  // 当前指针左子树的最右结点
+        while (cur != null) {
+            mostRight = cur.left;
+            if (mostRight != null) {
+                while (mostRight.right != null && mostRight.right != cur) {
+                    mostRight = mostRight.right;
+                }
+                if (mostRight.right == null) {
+                    mostRight.right = cur;
+                    cur = cur.left;
+                    continue;
+                } else {
+                    mostRight.right = null;
+                    addRightEdgeReversed(cur.left,result);
+                }
+            }
+            addRightEdgeReversed(root,result);
+            cur = cur.right;
+        }
+    }
+
+    /**
+     * 逆序添加 node 的右子树及其本身
+     * @param node node
+     * @param result 结果集
+     */
+    private static void addRightEdgeReversed(TreeNode node, ArrayList<Integer> result){
+
+    }
+
+    public static void morrisLeft(TreeNode root, ArrayList<Integer> result) {
+        if (root == null) return;
+        TreeNode cur = root;
+        TreeNode mostLeft;
+        while (cur != null) {
+            mostLeft = cur.right;
+            if (mostLeft != null) {
+                while (mostLeft.left != null && mostLeft.left != cur) {
+                    mostLeft = mostLeft.left;
+                }
+                if (mostLeft.left == cur) {
+                    mostLeft.left = null;
+                } else {
+                    mostLeft.left = cur;
+                    cur = cur.right;
+                    continue;
+                }
+            }
+            result.add(cur.val);
+            cur = cur.left;
         }
     }
 
     public static void main(String[] args) {
-        TreeNode root = ArrayUtil.buildBinTree();
-        ArrayUtil.printTree(root);
-        /*ArrayList<Integer> result = new ArrayList<>();
-        postOrder(root, result);
-        System.out.println(ArrayUtil.array2String(result));*/
+        TreeNode root = AlgorithmUtils.buildBinTree();
+        AlgorithmUtils.printTree(root);
+        ArrayList<Integer> result = new ArrayList<>();
+        morrisIn(root, result);
+        System.out.println(AlgorithmUtils.array2String(result));
     }
 }

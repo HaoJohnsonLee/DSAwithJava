@@ -1,10 +1,8 @@
 package per.johnson.dsa.a.leetcode;
 
 import per.johnson.dsa.a.basic.MergeSort;
-import per.johnson.dsa.a.niuke.Merge;
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -31,6 +29,6 @@ public class KthLargestElementInAnArray {
         int[] nums = {9, 3, 1, 10, 5, 7, 6, 2, 8, 0};
         System.out.println(new KthLargestElementInAnArray().findKthLargest(nums,5));
         MergeSort.sort(nums);
-        System.out.println(ArrayUtil.array2String(nums));
+        System.out.println(AlgorithmUtils.array2String(nums));
     }
 }

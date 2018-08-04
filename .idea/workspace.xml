@@ -5,27 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc9e486-def8-4c71-b5ec-3ec1921c6a14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/PrintMinNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/RecursionProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/IPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindFirstCommonNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetNext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/InversePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/IsBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/IsContinuous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/LastRemaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/LeftRotateString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ReverseSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TreeDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/TreeLinkNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BigHeadTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/GetMaxWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/MaxRecFromBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/AD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/DivideApple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/MaxLengthSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/MaxScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/OneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/SortAscii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/IsToeplitzMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/DeleteDuplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FirstAppearingOnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetUglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/IsSymmetrical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/MaxNumberInWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/MovingCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/PrintTreeZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/SerializeDeserialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/StrToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TwoSumS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/BucketSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/BucketSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/HolllandLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/HolllandLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/ImprovedQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/ImprovedQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/Partition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/Partition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/tree/Traversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/basic/tree/Traversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/util/ArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/util/ArrayUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/interview/FindMaxGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/interview/FindMaxGap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/interview/RecursionProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/interview/RecursionProblems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/leetcode/KthLargestElementInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/leetcode/KthLargestElementInAnArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/leetcode/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/leetcode/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/GetNext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/a/niuke/GetNext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAwithJava/per/johnson/dsa/util/ArrayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BucketSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/HolllandLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/HolllandLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/ImprovedQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/ImprovedQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/Partition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/tree/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/tree/Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/util/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/FindMaxGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/FindMaxGap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/RecursionProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/RecursionProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/KthLargestElementInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/KthLargestElementInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetNext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetNext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/johnson/dsa/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/johnson/dsa/util/AlgorithmUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,46 +67,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecursionProblems.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/interview/RecursionProblems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#cow_dp#0;class#RecursionProblems#0" />
-                <element signature="method#walk#0;class#RecursionProblems#0" />
-                <element signature="method#walk_dp#0;class#RecursionProblems#0" />
-                <element signature="method#testWalk#0;class#RecursionProblems#0" />
-                <element signature="e#3131#3132#0" expanded="true" />
-                <element signature="e#3179#3180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/util/ArrayUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#generateRandomMatrix#0;class#ArrayUtil#0" />
-                <element signature="method#array2String#0;class#ArrayUtil#0" />
-                <element signature="method#swap#0;class#ArrayUtil#0" />
-                <element signature="method#array2LinkedList#0;class#ArrayUtil#0" />
-                <element signature="method#buildBinTree#0;class#ArrayUtil#0" />
-                <element signature="method#buildBinTree#1;class#ArrayUtil#0" />
-                <element signature="method#printInOrder#0;class#ArrayUtil#0" />
-                <element signature="method#getSpace#0;class#ArrayUtil#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,39 +116,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/sort/Sort.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/concurrent/threadlocal/DateTest.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/FindDerangementOfAnArray.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/concurrent/thread/InterruptDemo.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/concurrent/thread/Data.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindGreatestSumOfSubArray.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/Partition.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/concurrent/thread/ThreadDemo.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/KMP.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/Sort.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/ImprovedQuickSort.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BucketSort.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/FindMaxDifference.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/StackWithMin.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/TowQueueStack.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Stack2Queue.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TowStackQueue.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/PrintMatrix.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindNumsAppearOnce.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/HolllandLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/RandomListNode.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Clone.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/util/IntegerUtils.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/EntryNodeOfLoop.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/KthLargestElementInAnArray.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetLeastNumbers.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/tree/Traversal.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/IsBalanced.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TreeDepth.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/InversePairs.java" />
@@ -173,8 +136,37 @@
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/IPO.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/Hanoi.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/PrintAllSubString.java" />
-        <option value="$PROJECT_DIR$/src/per/johnson/dsa/util/ArrayUtil.java" />
         <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/interview/RecursionProblems.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/DeleteDuplication.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Duplicate.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetUglyNumber.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/StrToInt.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Add.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/MovingCount.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/util/ArrayUtil.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/SerializeDeserialize.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/IsToeplitzMatrix.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/GetMaxWindow.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BigHeadTree.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/MaxRecFromBottom.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/util/AlgorithmUtils.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/basic/tree/Traversal.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/OneNumber.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/MaxScore.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/RecordMistakes.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/MaxProduct.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/DivideApple.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/Caculator.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/SortAscii.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/MaxLengthSub.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/AD.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TwoSumS.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/MaxNumberInWindow.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FirstAppearingOnce.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/PrintTreeZ.java" />
+        <option value="$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/IsSymmetrical.java" />
       </list>
     </option>
   </component>
@@ -188,9 +180,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="-5" />
     <option name="width" value="1935" />
-    <option name="height" value="1040" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -202,6 +194,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
+              <item name="per" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
+              <item name="per" type="1f31426a:PackageElementNode" />
+              <item name="johnson" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
+              <item name="per" type="1f31426a:PackageElementNode" />
+              <item name="johnson" type="1f31426a:PackageElementNode" />
+              <item name="dsa" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
+              <item name="per" type="1f31426a:PackageElementNode" />
+              <item name="johnson" type="1f31426a:PackageElementNode" />
+              <item name="dsa" type="1f31426a:PackageElementNode" />
+              <item name="ds" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,16 +281,7 @@
               <item name="johnson" type="462c0819:PsiDirectoryNode" />
               <item name="dsa" type="462c0819:PsiDirectoryNode" />
               <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSAwithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="per" type="462c0819:PsiDirectoryNode" />
-              <item name="johnson" type="462c0819:PsiDirectoryNode" />
-              <item name="dsa" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
@@ -276,49 +296,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
-              <item name="per" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
-              <item name="per" type="1f31426a:PackageElementNode" />
-              <item name="johnson" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
-              <item name="per" type="1f31426a:PackageElementNode" />
-              <item name="johnson" type="1f31426a:PackageElementNode" />
-              <item name="dsa" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="DSA" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DSAwithJava" type="616d4139:PackageViewModuleNode" />
-              <item name="per" type="1f31426a:PackageElementNode" />
-              <item name="johnson" type="1f31426a:PackageElementNode" />
-              <item name="dsa" type="1f31426a:PackageElementNode" />
-              <item name="ds" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="S&#9;FILE&#9;file://D:/DSAwithJava/src/per/johnson/dsa/a/niuke/Stack2Queue.java&#10;Stack&#9;PSI&#9;JAVA://per.johnson.dsa.a.basic.TowQueueStack&#10;Sta&#9;PSI&#9;JAVA://per.johnson.dsa.a.niuke.Stack2Queue&#10;Min&#9;FILE&#9;file://D:/DSAwithJava/src/per/johnson/dsa/a/niuke/StackWithMin.java" />
+    <property name="SearchEverywhereHistoryKey" value="longestPalindrome&#9;PSI&#9;JAVA://per.johnson.dsa.a.leetcode.LongestPalindrome&#10;S&#9;FILE&#9;file://D:/DSAwithJava/src/per/johnson/dsa/a/niuke/Stack2Queue.java&#10;Stack&#9;PSI&#9;JAVA://per.johnson.dsa.a.basic.TowQueueStack&#10;Sta&#9;PSI&#9;JAVA://per.johnson.dsa.a.niuke.Stack2Queue&#10;Min&#9;FILE&#9;file://D:/DSAwithJava/src/per/johnson/dsa/a/niuke/StackWithMin.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="F:/blog/CustomServer" />
@@ -341,34 +324,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RecursionProblems">
+  <component name="RunManager" selected="Application.MaxNumberInWindow">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.interview.Hanoi" />
+    <configuration name="AD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.advanced.AD" />
       <module name="DSAwithJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.johnson.dsa.a.interview.*" />
+          <option name="PATTERN" value="per.johnson.dsa.a.advanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="IPO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.leetcode.IPO" />
+    <configuration name="MaxLengthSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.advanced.MaxLengthSub" />
       <module name="DSAwithJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.johnson.dsa.a.leetcode.*" />
+          <option name="PATTERN" value="per.johnson.dsa.a.advanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="IsContinuous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.niuke.IsContinuous" />
+    <configuration name="MaxNumberInWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.niuke.MaxNumberInWindow" />
       <module name="DSAwithJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -378,24 +361,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PrintAllSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.interview.PrintAllSubString" />
+    <configuration name="SortAscii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.advanced.SortAscii" />
       <module name="DSAwithJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.johnson.dsa.a.interview.*" />
+          <option name="PATTERN" value="per.johnson.dsa.a.advanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RecursionProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.interview.RecursionProblems" />
+    <configuration name="TwoSumS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.johnson.dsa.a.niuke.TwoSumS" />
       <module name="DSAwithJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.johnson.dsa.a.interview.*" />
+          <option name="PATTERN" value="per.johnson.dsa.a.niuke.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,19 +425,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.IsContinuous" />
-      <item itemvalue="Application.IPO" />
-      <item itemvalue="Application.Hanoi" />
-      <item itemvalue="Application.PrintAllSubString" />
-      <item itemvalue="Application.RecursionProblems" />
+      <item itemvalue="Application.SortAscii" />
+      <item itemvalue="Application.MaxLengthSub" />
+      <item itemvalue="Application.AD" />
+      <item itemvalue="Application.TwoSumS" />
+      <item itemvalue="Application.MaxNumberInWindow" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RecursionProblems" />
-        <item itemvalue="Application.PrintAllSubString" />
-        <item itemvalue="Application.Hanoi" />
-        <item itemvalue="Application.IPO" />
-        <item itemvalue="Application.IsContinuous" />
+        <item itemvalue="Application.MaxNumberInWindow" />
+        <item itemvalue="Application.TwoSumS" />
+        <item itemvalue="Application.AD" />
+        <item itemvalue="Application.MaxLengthSub" />
+        <item itemvalue="Application.SortAscii" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +478,11 @@
       <workItem from="1532416089442" duration="2074000" />
       <workItem from="1532435788750" duration="4438000" />
       <workItem from="1532509530936" duration="29000" />
-      <workItem from="1532598644791" duration="73753000" />
+      <workItem from="1532598644791" duration="98813000" />
+      <workItem from="1533027724404" duration="4193000" />
+      <workItem from="1533115176245" duration="12032000" />
+      <workItem from="1533200889170" duration="22000" />
+      <workItem from="1533281125131" duration="7727000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1530802421755</created>
@@ -522,15 +509,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253119000" />
+    <option name="totallyTimeSpent" value="302153000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="9" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3281027" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="6" />
@@ -538,25 +533,25 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.42225394" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2810271" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4422254" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32524964" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" x="580" y="68" width="372" height="695" id="Project" order="0" visible="true" weight="0.27815014" />
+      <window_info content_ui="combo" x="580" y="68" width="372" height="695" id="Project" order="0" visible="true" weight="0.29423591" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.4208274" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.40798858" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,8 +671,62 @@
           <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetUglyNumber.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/MaxRecFromBottom.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/MaxRecFromBottom.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/MaxScore.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/DivideApple.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/Calculator.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/AD.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TwoSumS.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TwoSumS.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="221" />
+      <option name="time" value="264" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -692,261 +741,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/StackWithMin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/TowQueueStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="method#swap#0;class#TowQueueStack#0" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TowStackQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/PrintFromTopToBottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/PrintMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/NumberOf1Between1AndN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindNumsAppearOnce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/HolllandLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="73" column="93" selection-start-line="73" selection-start-column="93" selection-end-line="73" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Findxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/JobMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="378" column="24" lean-forward="true" selection-start-line="378" selection-start-column="24" selection-end-line="378" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/RandomListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/util/IntegerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/EntryNodeOfLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/EditDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding>
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/KthLargestElementInAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
-          <folding>
-            <element signature="e#5287#5288#0" expanded="true" />
-            <element signature="e#5345#5346#0" expanded="true" />
-            <element signature="e#13000#13001#0" expanded="true" />
-            <element signature="e#13056#13057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetLeastNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FindGreatestSumOfSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/interview/FindMaxGap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Bucket#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="30" column="70" lean-forward="true" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/tree/Traversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="137" column="61" lean-forward="true" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#preOrder0#0;class#Traversal#0" />
-            <element signature="method#inOrder0#0;class#Traversal#0" />
-            <element signature="method#posOrder0#0;class#Traversal#0" />
-            <element signature="method#floorOrder#0;class#Traversal#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,21 +797,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/TreeNodeWithParent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/TreeNodeWithParent.java" />
     <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/ds/TreeLinkNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,11 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <element signature="method#LastRemaining_Solution#0;class#LastRemaining#0" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,15 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#GetNext#0;class#GetNext#0" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="method#main#0;class#GetNext#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,14 +861,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/IPO.java">
+    <entry file="jar://C:/Java/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        <state relative-caret-position="114">
+          <caret line="1184" column="8" selection-start-line="1184" selection-start-column="8" selection-end-line="1184" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/DeleteDuplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Duplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/StrToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/GetUglyNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/MovingCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/SerializeDeserialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/IsToeplitzMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/BigHeadTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/GetMaxWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="1251" column="32" lean-forward="true" selection-start-line="1251" selection-start-column="32" selection-end-line="1251" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/MaxRecFromBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Node#0;class#Node#0;class#IPO#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/util/AlgorithmUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/basic/tree/Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="215" column="25" lean-forward="true" selection-start-line="215" selection-start-column="25" selection-end-line="215" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/OneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/RecordMistakes.java" />
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/MaxScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/DivideApple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="method#calculate#0;class#Calculator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/SortAscii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/MaxLengthSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/huawei/AD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="method#process#0;class#AD#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/TwoSumS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/interview/FindMaxGap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1102,55 +1057,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-          <folding>
-            <element signature="method#process#0;class#Hanoi#0" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="1184" column="8" selection-start-line="1184" selection-start-column="8" selection-end-line="1184" selection-end-column="8" />
-          <folding>
-            <element signature="e#26565#26566#0" expanded="true" />
-            <element signature="e#26601#26602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/util/ArrayUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#generateRandomMatrix#0;class#ArrayUtil#0" />
-            <element signature="method#array2String#0;class#ArrayUtil#0" />
-            <element signature="method#swap#0;class#ArrayUtil#0" />
-            <element signature="method#array2LinkedList#0;class#ArrayUtil#0" />
-            <element signature="method#buildBinTree#0;class#ArrayUtil#0" />
-            <element signature="method#buildBinTree#1;class#ArrayUtil#0" />
-            <element signature="method#printInOrder#0;class#ArrayUtil#0" />
-            <element signature="method#getSpace#0;class#ArrayUtil#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/interview/RecursionProblems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+        <state relative-caret-position="-755">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/leetcode/IPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/MaxNumberInWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#cow_dp#0;class#RecursionProblems#0" />
-            <element signature="method#walk#0;class#RecursionProblems#0" />
-            <element signature="method#walk_dp#0;class#RecursionProblems#0" />
-            <element signature="method#testWalk#0;class#RecursionProblems#0" />
-            <element signature="e#3131#3132#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/IsSymmetrical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/PrintTreeZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/per/johnson/dsa/a/niuke/FirstAppearingOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
           </folding>
         </state>
       </provider>

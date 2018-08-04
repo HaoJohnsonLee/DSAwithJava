@@ -1,6 +1,6 @@
 package per.johnson.dsa.a.basic;
 
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 /**
  * Created by Johnson on 2018/7/27.
@@ -19,10 +19,10 @@ public class QuickSort {
         int standard = a[lo];
         for (; j <= hi; j++) {
             if (a[j] < standard) {
-                ArrayUtil.swap(a, ++i, j);
+                AlgorithmUtils.swap(a, ++i, j);
             }
         }
-        ArrayUtil.swap(a, i, lo);
+        AlgorithmUtils.swap(a, i, lo);
         return i;
     }
     public static void quickSort(int[] arr) {

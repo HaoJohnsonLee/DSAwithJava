@@ -1,6 +1,6 @@
 package per.johnson.dsa.a.basic;
 
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 import java.util.Arrays;
 
@@ -17,7 +17,7 @@ public class Partition {
         int index = -1;
         for (int i = 0; i < array.length; i++) {
             if (array[i] <= basic) {
-                ArrayUtil.swap(array, i, ++index);
+                AlgorithmUtils.swap(array, i, ++index);
             }
         }
     }
@@ -34,10 +34,10 @@ public class Partition {
         while (i < array.length) {
             if( R == i + 1)break;
             if (array[i] < basic) {
-                ArrayUtil.swap(array, i, ++L);
+                AlgorithmUtils.swap(array, i, ++L);
                 i++;
             } else if (array[i] > basic) {
-                ArrayUtil.swap(array, i, --R);
+                AlgorithmUtils.swap(array, i, --R);
             } else {
                 i++;
             }
@@ -46,7 +46,7 @@ public class Partition {
     }
 
     public static void main(String[] args) {
-        //int[] s = ArrayUtil.randomArray(10, 20);
+        //int[] s = AlgorithmUtils.randomArray(10, 20);
         int[] s = {16, 7, 10, 8, 2, 32, 10, 1, 9, 15, 10, 6, 7};
         System.out.println(Arrays.toString(s));
         partition0(s, 10);

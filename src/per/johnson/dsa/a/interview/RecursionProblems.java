@@ -1,8 +1,6 @@
 package per.johnson.dsa.a.interview;
 
-import per.johnson.dsa.util.ArrayUtil;
-
-import java.util.Arrays;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 /**
  * Created by Johnson on 2018/7/28.
@@ -91,15 +89,15 @@ public class RecursionProblems {
             }
         }
         System.out.println("-----------dp array-------------");
-        System.out.println(ArrayUtil.array2String(dp));
+        System.out.println(AlgorithmUtils.array2String(dp));
         return dp[0][0];
     }
 
     //测试walk
     private static void testWalk() {
-        int[][] matrix = ArrayUtil.generateRandomMatrix(10,10);
+        int[][] matrix = AlgorithmUtils.generateRandomMatrix(10,10);
         System.out.println("-----------origin array-------------");
-        System.out.println(ArrayUtil.array2String(matrix));
+        System.out.println(AlgorithmUtils.array2String(matrix));
         System.out.println(walk(matrix, 0, 0));
         System.out.println(walk_dp(matrix));
     }
@@ -120,9 +118,23 @@ public class RecursionProblems {
         return isAimExist(array,i + 1,sum,aim)||isAimExist(array,i+1,sum+array[i],aim);
     }
 
+    private static int sum(int n){
+        int ans = n;
+        boolean a = (ans !=1) && ((ans += sum(n-1)) > 0);
+        return ans;
+    }
+    private static int sum0(int n){
+        if(n == 1) return 1;
+        return n + sum0(n-1);
+    }
 
     public static void main(String[] args) {
-        int[] a = {3,2,7,13};
-        System.out.println(isAimExist(a,9));
+        boolean flag = true;
+        for(int i = 1; i<20;i++){
+            if(sum(i)!=sum0(i)){
+                flag = false;
+            }
+        }
+        System.out.println(flag);
     }
 }

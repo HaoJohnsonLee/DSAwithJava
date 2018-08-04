@@ -1,7 +1,7 @@
 package per.johnson.dsa.a.basic;
 
 import per.johnson.dsa.a.niuke.ds.ListNode;
-import per.johnson.dsa.util.ArrayUtil;
+import per.johnson.dsa.util.AlgorithmUtils;
 
 /**
  * Created by Johnson on 2018/7/27.
@@ -66,11 +66,11 @@ public class HolllandLinkedList {
 
     public static void main(String[] args) {
         for(int i = 0; i< 1000; i++) {
-            int[] a = ArrayUtil.randomArray(10, 20);
-            ListNode head = ArrayUtil.array2LinkedList(a);
-            System.out.println(ArrayUtil.linkedList2String(head));
+            int[] a = AlgorithmUtils.randomArray(10, 20);
+            ListNode head = AlgorithmUtils.array2LinkedList(a);
+            System.out.println(AlgorithmUtils.linkedList2String(head));
             head = reserve(head, 10);
-            System.out.println(ArrayUtil.linkedList2String(head));
+            System.out.println(AlgorithmUtils.linkedList2String(head));
             System.out.println("--------------------------------------------------------" + i);
         }
     }

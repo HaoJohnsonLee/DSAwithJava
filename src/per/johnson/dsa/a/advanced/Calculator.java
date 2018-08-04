@@ -1,4 +1,4 @@
-package per.johnson.dsa.a.huawei;
+package per.johnson.dsa.a.advanced;
 
 import java.util.Stack;
 
