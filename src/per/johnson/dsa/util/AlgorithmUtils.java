@@ -81,6 +81,7 @@ public class ArrayUtil {
     }
 
     public static String linkedList2String(ListNode node){
+        if(node==null)return "[]";
         StringBuilder sb = new StringBuilder("[");
         while(true){
             if(node.next == null){
